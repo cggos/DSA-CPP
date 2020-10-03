@@ -146,7 +146,7 @@ void status() {
     cout << "\nThe following people are using the library:\n\n"; 
     for (i = 'A'; i <= 'Z'; i++)
         if (!people[i].empty())
-            cout << people[i];
+            cout << people[i]<<"  ";
 }
 
 void includeBook() {   
